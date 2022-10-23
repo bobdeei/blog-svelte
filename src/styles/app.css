@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiko:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	body {
+		@apply font-content;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		@apply font-title font-semibold text-gray-800 max-w-2xl tracking-tighter;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	span {
+		@apply dark:text-white/90;
+	}
+
+	h1 {
+		@apply text-3xl md:text-5xl font-bold md:leading-tight;
+	}
+
+	p {
+		@apply text-gray-700 dark:text-white/60 max-w-prose;
+	}
+
+	a {
+		@apply hover:text-emerald-400 transition dark:hover:text-emerald-400;
+	}
+}
+
+@layer utilities {
+	.layout-basic {
+		@apply mx-auto max-w-screen-xl;
+	}
+	.layout-pl {
+		@apply pl-4 sm:pl-6 md:pl-8 lg:pl-12;
+	}
+	.layout-pr {
+		@apply pr-4 sm:pr-6 md:pr-8 lg:pr-12;
+	}
+	.layout-pt {
+		@apply pt-8 sm:pt-12 md:pt-16;
+	}
+	.layout-pb {
+		@apply pb-8 sm:pb-12 md:pb-16;
+	}
+	.layout-px {
+		@apply layout-pl layout-pr;
+	}
+	.layout-py {
+		@apply layout-pt layout-pb;
+	}
+	.layout-x {
+		@apply layout-basic layout-px;
+	}
+	.layout-y {
+		@apply layout-basic layout-py;
+	}
+	.layout {
+		@apply layout-basic layout-px layout-py;
+	}
+}
