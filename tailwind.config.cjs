@@ -5,8 +5,8 @@ module.exports = {
 	theme: {
 		extend: {
 			fontFamily: {
-				content: ['Quicksand'],
-				title: ['Amiko']
+				title: ['Nunito', 'Amiko'],
+				content: ['Quicksand']
 			}
 		}
 	},
