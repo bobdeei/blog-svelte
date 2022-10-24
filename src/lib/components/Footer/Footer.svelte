@@ -5,7 +5,7 @@
 <footer
 	class="layout flex flex-col items-center justify-between gap-6 border-t border-gray-100 dark:border-gray-800 md:flex-row"
 >
-	<ul class="flex gap-4">
+	<ul class="flex gap-6">
 		{#each footerNavigation as navItem}
 			<li class="text-sm font-semibold dark:text-white/90">
 				<a href={navItem.href}>{navItem.text}</a>
