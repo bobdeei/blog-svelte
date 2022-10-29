@@ -3,7 +3,7 @@
 </script>
 
 <footer
-	class="layout flex flex-col items-center justify-between gap-6 border-t border-gray-100 dark:border-gray-800 md:flex-row"
+	class="layout-x flex flex-col items-center justify-between gap-6 border-t border-gray-100 py-10 dark:border-gray-800 md:flex-row"
 >
 	<ul class="flex gap-6">
 		{#each footerNavigation as navItem}

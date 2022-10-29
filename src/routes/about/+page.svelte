@@ -57,11 +57,11 @@
 						rel="noreferrer"
 					>
 						<Icon
-							class="text-gray-500 transition group-hover:text-emerald-400"
+							class="text-gray-500 transition group-hover:text-primary"
 							icon={social.icon}
 							width="20"
 						/>
-						<span class="font-semibold text-gray-700 transition group-hover:text-emerald-400">
+						<span class="font-semibold text-gray-700 transition group-hover:text-primary">
 							Follow on {social.name}
 						</span>
 					</a>
@@ -76,11 +76,11 @@
 					rel="noreferrer"
 				>
 					<Icon
-						class="text-gray-500 transition group-hover:text-emerald-400"
+						class="text-gray-500 transition group-hover:text-primary"
 						icon="entypo:mail"
 						width="20"
 					/>
-					<span class="font-semibold text-gray-700 transition group-hover:text-emerald-400">
+					<span class="font-semibold text-gray-700 transition group-hover:text-primary">
 						{contact.EMAIL.text}
 					</span>
 				</a>

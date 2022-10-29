@@ -40,7 +40,7 @@
 			on:click={theme.toggleTheme}
 		>
 			<Icon
-				class={$theme === 'dark' ? 'text-emerald-400' : ''}
+				class={$theme === 'dark' ? 'text-primary' : ''}
 				icon={$theme === 'light' ? 'bi:sun' : 'bi:moon'}
 				width="20"
 			/>

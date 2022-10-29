@@ -39,7 +39,7 @@
 	}
 
 	a {
-		@apply transition hover:text-emerald-400 dark:hover:text-emerald-400;
+		@apply transition hover:text-primary dark:hover:text-primary;
 	}
 
 	li {

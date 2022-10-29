@@ -31,7 +31,7 @@
 					</time>
 
 					<a
-						class="layout-px block space-y-4 py-6 transition hover:bg-gray-50 dark:hover:bg-slate-800 md:rounded-2xl md:px-5"
+						class="layout-px flex-1 space-y-4 py-6 transition hover:bg-gray-50 dark:hover:bg-slate-800 md:rounded-2xl md:px-5"
 						{href}
 					>
 						<time class="border-l-2 pl-4 text-sm text-gray-500 dark:border-gray-500 md:hidden">
@@ -41,7 +41,7 @@
 						<p class="text-sm leading-relaxed text-gray-600">
 							{post.excerpt}
 						</p>
-						<a class="inline-flex items-center gap-1 text-sm font-semibold text-emerald-400" {href}>
+						<a class="inline-flex items-center gap-1 text-sm font-semibold text-primary" {href}>
 							Read article
 							<Icon icon="bx:chevron-right" width="16" />
 						</a>

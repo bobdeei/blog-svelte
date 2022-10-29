@@ -27,7 +27,7 @@
 <div class={classnames($theme === 'dark' && 'dark')}>
 	<div class="md:layout-px bg-gray-50 dark:bg-black">
 		<div
-			class="layout-basic space-y-8 border-x bg-white dark:border-gray-800 dark:bg-gray-900 md:space-y-16"
+			class="layout-basic space-y-8 border-x bg-white dark:border-neutral-dark-border dark:bg-neutral-dark md:space-y-16"
 		>
 			<Header />
 

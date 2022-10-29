@@ -28,6 +28,6 @@ export const load: PageServerLoad<Data> = async () => {
 	);
 
 	return {
-		posts
+		posts: posts.reverse()
 	};
 };
